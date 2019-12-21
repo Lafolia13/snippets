@@ -1,0 +1,60 @@
+\documentclass{jsarticle}
+\usepackage[top=30truemm,bottom=30truemm, left=1in, right = 1in]{geometry}
+\usepackage{enumerate}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{here}
+\usepackage{ulem}
+\usepackage{mathtools}
+\usepackage{amsmath, amssymb}
+\usepackage{siunitx}
+\usepackage{ascmac}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{lscape}
+
+\makeatletter
+	\renewcommand{\thefigure}{\arabic{section}.\arabic{figure}}
+	\renewcommand{\thetable}{\arabic{section}.\arabic{table}}
+	\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+	\renewcommand{\lstlistingname}{テキスト\arabic{section}.}
+	\@addtoreset{table}{section}
+	\@addtoreset{figure}{section}
+	\@addtoreset{equation}{section}
+	\@addtoreset{lstlisting}{section}
+\makeatother
+
+\begin{document}
+
+	\section{目的}
+
+		${0:}
+
+	\section{原理}
+
+
+
+	\section{実験}
+
+		\subsection{実験方法}
+
+
+
+		\subsection{使用機器}
+
+
+
+	\section{実験結果}
+
+
+
+	\section{考察}
+
+
+
+	\section{まとめ}
+
+	\begin{thebibliography}{9}
+
+	\end{thebibliography}
+
+\end{document}

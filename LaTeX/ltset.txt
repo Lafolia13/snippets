@@ -1,0 +1,20 @@
+\begin{center}
+
+	\begin{longtable}{${3:}}
+
+		\caption{${1:}}
+		\label{${2:}}
+
+		\\\\ \hline
+		${4:} \\\\ \hline \hline \endfirsthead
+% \noalign{\vspace{2pt}}
+		\hline
+		${4:} \\\\ \hline \hline \endhead
+
+		\hline \endfoot
+		\hline \endlastfoot
+
+		${0:}
+	\end{longtable}
+
+\end{center}

@@ -1,0 +1,11 @@
+\begin{figure}[H]
+
+	\begin{center}
+
+		\includegraphics[width = 12cm]{${0:}}
+		\caption{${1:}}
+		\label{${2:}}
+
+	\end{center}
+
+\end{figure}

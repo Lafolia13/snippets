@@ -1,0 +1,28 @@
+\begin{figure}[H]
+
+	\begin{minipage}[t]{0.5\hsize}
+
+		\begin{flushleft}
+
+			\includegraphics[width = 7.5cm]{}
+			\caption{}
+			\label{}
+
+		\end{flushleft}
+
+	\end{minipage}
+
+	\begin{minipage}[t]{0.5\hsize}
+
+		\begin{flushright}
+
+			\includegraphics[width = 7.5cm]{}
+			\caption{}
+			\label{}
+
+		\end{flushright}
+
+	\end{minipage}
+
+\end{figure}
+${0:}

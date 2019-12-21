@@ -1,0 +1,17 @@
+\begin{landscape}
+
+	\begin{figure}[h]
+
+		\begin{center}
+
+			\includegraphics[width = 23cm]{${0:}}
+			\caption{${1:}}
+			\label{${2:}}
+
+		\end{center}
+
+	\end{figure}
+
+	% \thispagestyle{empty}
+
+\end{landscape}

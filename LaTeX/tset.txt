@@ -1,0 +1,13 @@
+\begin{table}[H]
+
+	\begin{center}
+
+		\caption{${1:}}
+		\label{${2:}}
+		\begin{tabular}{${3:}} \hline
+			${0:}
+		\end{tabular}
+
+	\end{center}
+
+\end{table}

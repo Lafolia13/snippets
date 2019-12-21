@@ -1,0 +1,31 @@
+\begin{table}[H]
+
+	\begin{minipage}[t]{0.5\hsize}
+
+		\begin{center}
+
+			\caption{}
+			\label{}
+			\begin{tabular}{} \hline
+
+			\end{tabular}
+
+		\end{center}
+
+	\end{minipage}
+	\begin{minipage}[t]{0.5\hsize}
+
+		\begin{center}
+
+			\caption{}
+			\label{}
+			\begin{tabular}{} \hline
+
+			\end{tabular}
+
+		\end{center}
+
+	\end{minipage}
+
+\end{table}
+${0:}
