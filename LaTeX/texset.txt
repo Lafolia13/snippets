@@ -1,27 +1,43 @@
-\documentclass{jsarticle}
+\documentclass[uplatex]{jsarticle}
+\usepackage[ipaex, unicode]{pxchfon}  % using ipaex
 \usepackage[top=30truemm,bottom=30truemm, left=1in, right = 1in]{geometry}
-\usepackage{enumerate}
 \usepackage[dvipdfmx]{graphicx}
-\usepackage{here}
-\usepackage{ulem}
-\usepackage{mathtools}
+\usepackage{enumerate}
+\usepackage{here} % using [H]
+\usepackage{ulem} % using sout
 \usepackage{amsmath, amssymb}
-\usepackage{siunitx}
-\usepackage{ascmac}
+\usepackage{mathtools}
 \usepackage{multirow}
-\usepackage{listings}
-\usepackage{lscape}
+\usepackage{listings, jlisting} % using lstlisting
+\usepackage{lscape} % using landscape
+\usepackage{longtable}
+\mathtoolsset{showonlyrefs=true}
 
 \makeatletter
 	\renewcommand{\thefigure}{\arabic{section}.\arabic{figure}}
 	\renewcommand{\thetable}{\arabic{section}.\arabic{table}}
 	\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
-	\renewcommand{\lstlistingname}{テキスト\arabic{section}.}
+	\AtBeginDocument{
+		\renewcommand*{\thelstlisting}{\arabic{section}.\arabic{lstlisting}}
+	}
+	\renewcommand{\lstlistingname}{プログラム}
 	\@addtoreset{table}{section}
 	\@addtoreset{figure}{section}
 	\@addtoreset{equation}{section}
 	\@addtoreset{lstlisting}{section}
 \makeatother
+
+\lstset{
+	language = c++,
+	breaklines = true,
+	breakindent = 10pt,
+	frame = TB,		% top, bottom, left, right, upper's is double line
+	numbers = left,
+	numberstyle = \tiny,
+	basicstyle = \tt\scriptsize,
+	tabsize = 2,
+	captionpos = t
+}
 
 \begin{document}
 

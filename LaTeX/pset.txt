@@ -1,0 +1,1 @@
+\lstinputlisting[caption = ${1:}, label = ${2:}]{${0:}}
