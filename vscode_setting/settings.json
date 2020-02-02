@@ -1,0 +1,43 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.fontFamily": "Ricty Diminished Discord",
+  "terminal.integrated.fontWeightBold": "normal",
+  "editor.fontFamily": "Ricty Diminished Discord",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.renderLineHighlight": "all",
+  "editor.tokenColorCustomizations": {
+    "comments": "#d5dab9"
+  },
+  "window.zoomLevel": -3,
+  "workbench.panel.defaultLocation": "right",
+
+  "glassit.alpha": 200,
+
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.chktex.enabled": true,
+  "latex-workshop.chktex.run": "onType",
+  "latex-workshop.chktex.delay": 500,
+  "latex-workshop.message.update.show": false,
+  "latex-workshop.view.pdf.viewer": "tab",
+
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "C_Cpp.updateChannel": "Insiders"
+}
