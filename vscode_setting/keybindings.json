@@ -15,5 +15,18 @@
   {
     "key": "ctrl+shift+oem_102",
     "command": "workbench.action.focusPreviousGroup"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "ctrl+[",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "terminalFocus"
   }
 ]

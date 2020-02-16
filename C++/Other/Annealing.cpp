@@ -9,7 +9,7 @@ void simulated_annealing() {
 	int max_score = now_score;
 	int changed_score;
 	int diff_score;
-	num before;
+	int before;
 	double temp;
 	double probability;
 	bool force;
@@ -18,8 +18,8 @@ void simulated_annealing() {
 		temp = start_temp + (end_temp - start_temp) * (f - s) / simulate_time;
 		for (int &&i = 0; i < 100; ++i) {
 
-			static pos change_pos;
-			static num change_num;
+			static int change_pos;
+			static int change_num;
 			do {
 				change_pos = xor128();
 				change_num = xor128();

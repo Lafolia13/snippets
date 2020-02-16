@@ -4,11 +4,11 @@ ret_type beam_search() {
 
 	priority_queue<node, vector<node>, greater<node>> now_que, next_que;
 
-	node root_node();
+	node root_node = {};
 	now_que.push(root_node);
 	for (int &&turn = 0; turn < beam_depth; ++turn) {
 		while (now_que.size()) {
-			constexpr now_node = now_que.top();
+			const node now_node = now_que.top();
 			now_que.pop();
 
 			vector<action> actions = get_action();
@@ -25,5 +25,6 @@ ret_type beam_search() {
 	}
 
 	while (now_que.size() > 1) now_que.pop();
+
 	return now_que.top();
 }
