@@ -1,15 +1,16 @@
 \documentclass[uplatex]{jsarticle}
-\usepackage[ipaex, unicode]{pxchfon}  % using ipaex
+\usepackage[ipaex, unicode]{pxchfon}  % use ipaex
 \usepackage[top=30truemm,bottom=30truemm, left=1in, right = 1in]{geometry}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{enumerate}
-\usepackage{here} % using [H]
-\usepackage{ulem} % using sout
+\usepackage{here} % use [H]
+\usepackage{ulem} % use sout
 \usepackage{amsmath, amssymb}
 \usepackage{mathtools}
+\usepackage{siunitx}
 \usepackage{multirow}
-\usepackage{listings, jlisting} % using lstlisting
-\usepackage{lscape} % using landscape
+\usepackage{listings, jlisting} % use lstlisting
+\usepackage{lscape} % use landscape
 \usepackage{longtable}
 \mathtoolsset{showonlyrefs=true}
 
@@ -20,7 +21,7 @@
 	\AtBeginDocument{
 		\renewcommand*{\thelstlisting}{\arabic{section}.\arabic{lstlisting}}
 	}
-	\renewcommand{\lstlistingname}{プログラム}
+	\renewcommand{\lstlistingname}{テキスト}
 	\@addtoreset{table}{section}
 	\@addtoreset{figure}{section}
 	\@addtoreset{equation}{section}
@@ -31,13 +32,17 @@
 	language = c++,
 	breaklines = true,
 	breakindent = 10pt,
-	frame = TB,		% top, bottom, left, right, upper's is double line
+	frame = TB,		% top, bottom, left, right, upper letter is double line
 	numbers = left,
 	numberstyle = \tiny,
 	basicstyle = \tt\scriptsize,
 	tabsize = 2,
 	captionpos = t
 }
+
+\title{}
+\author{}
+\date{\today}
 
 \begin{document}
 

@@ -7,9 +7,8 @@ using lpair = pair<llong, llong>;
 
 #define ALL(x) x.begin(), x.end()
 
-template<typename T>
-constexpr T inf = static_cast<T>(pow(10, static_cast<int>(log10(numeric_limits<T>::max())))) + 7;
 constexpr llong mod = 1e9+7;
+constexpr llong inf = mod * mod;
 
 int main() {
 	${0:}

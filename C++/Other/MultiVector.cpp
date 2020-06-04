@@ -10,7 +10,7 @@ inline decltype(auto) get_multivector(T n, Args ...args) noexcept {
 	return vector<decltype(get_multivector(forward<Args>(args)...))>(forward<T>(n), get_multivector(forward<Args>(args)...));
 }
 
-template<typename T, llong N, typename enable_if<(N > 0), nullptr_t>::type = nullptr>
+template<typename T, long long N, typename enable_if<(N > 0), nullptr_t>::type = nullptr>
 struct multivector_impl {
 	using type = vector<typename multivector_impl<T, N-1>::type>;
 };

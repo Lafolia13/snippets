@@ -1,6 +1,6 @@
-llong xor128() {
-    static llong x = 123456789, y = 362436069, z = 521288629, w = 88675123;
-    llong t;
+long long xor128() {
+    static long long x = 123456789, y = 362436069, z = 521288629, w = 88675123;
+    long long t;
 
     t = (x^(x<<11));
     x=y;
