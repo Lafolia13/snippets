@@ -13,8 +13,10 @@
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.formatOnType": false,
+  "editor.hover.enabled": false,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
@@ -29,7 +31,7 @@
     "comments": "#d5dab9"
   },
 
-  "window.zoomLevel": -1,
+  "window.zoomLevel": -2,
 
   "bracket-pair-colorizer-2.highlightActiveScope": true,
 
