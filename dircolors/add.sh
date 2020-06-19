@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "$(dircolors -b ~/.dircolors)" >> ~/.bashrc
+echo "eval \$(dircolors -b ~/.dircolors)" >> ~/.bashrc
